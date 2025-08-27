@@ -26,15 +26,6 @@ Este projeto realiza uma análise exploratória de um conjunto de dados de veíc
 - `modelo_powerbi.xlsx`: Arquivo com medidas agregadas para uso no Power BI
 - Gráficos gerados: disponíveis na pasta `images/`
 
-## 🛠️ Como usar no Power BI
-1. Importe o arquivo `modelo_powerbi.xlsx`
-2. Crie visualizações com base nas medidas:
-   - `Média Preço = AVERAGE(carros_2025[preço])`
-   - `Mediana Preço = MEDIAN(carros_2025[preço])`
-   - `Total Carros = COUNT(carros_2025[condição])`
-   - `Correlação = CORREL(carros_2025[idade], carros_2025[preço])`
-3. Adicione segmentações por país, tipo de combustível, tipo de carroceria e ano
-
 ## 📌 Requisitos
 - Python 3
 - Bibliotecas: pandas, matplotlib, seaborn, openpyxl
